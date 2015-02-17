@@ -40,14 +40,23 @@
                 
             </div>
 
-            <button id="next" class="button button-small icon-right ion-chevron-right button-energized col-25 col-offset-75">
-                Next
-            </button>
+          
+			<div class="button-bar">
+				<a id="back" class="button button-energized">Back</a>
+				<a id="main" class="button button-energized">Main Menu</a>
+				<a id="next" class="button button-energized">Next</a>
+			</div>
         </ion-content>
     </ion-pane>
 
     <!-- javascript -->
     <script>
+		document.getElementById("back").onclick = function () {
+            location.href = "index.html";
+        };
+		document.getElementById("main").onclick = function () {
+            location.href = "index.html";
+        };
         document.getElementById("next").onclick = function () {
             location.href = "Building1.html";
         };

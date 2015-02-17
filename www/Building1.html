@@ -37,23 +37,29 @@
                     Burns tower is blah blah blah insert description about Burns Tower here.
                     </br>
                     </br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id nibh nisi. Integer ultricies imperdiet mauris at placerat. Curabitur pulvinar, diam quis rhoncus consectetur, diam ipsum hendrerit justo, ac varius lorem ipsum nec justo. Sed justo ex, scelerisque laoreet nunc scelerisque, tempus iaculis velit.
+                 
                     </br>
                 </div>
-
-
-                 
                 
             </div>
 
-            <button id="next" class="button button-small icon-right ion-chevron-right button-energized col-25 col-offset-75">
-                Next
-            </button>
+            <div class="button-bar">
+				<a id="back" class="button button-energized">Back</a>
+				<a id="main" class="button button-energized">Main Menu</a>
+				<a id="next" class="button button-energized">Next</a>
+			</div>
         </ion-content>
     </ion-pane>
 
     <!-- Add the reference to the next page (ex. set location.href = "nextBuilding.html";) -->
+	
     <script>
+	    document.getElementById("back").onclick = function () {
+            location.href = "TourPage1.html";
+        };
+		document.getElementById("main").onclick = function () {
+            location.href = "index.html";
+        };
         document.getElementById("next").onclick = function () {
             location.href = "BuildingTemplate.html";
         };
