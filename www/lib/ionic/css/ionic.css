@@ -11,6 +11,24 @@
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
  */
+
+/*!
+  Varsity, v1.5.2
+  Created by Brøderbund Software from http://www.dafont.com/theme.php?cat=104
+*/
+@media only screen {
+ @font-face {
+ font-family: MyCustomFont;
+ src: url("varsity_regular.eot") format('svg'); /* EOT file for IE */
+}
+}
+@media only screen {
+@font-face {
+ font-family: MyCustomFont;
+ src: url("varsity_regular.ttf") format('svg'); /* TTF file for CSS3 browsers */
+}
+}
+ 
 /*!
   Ionicons, v1.5.2
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -2521,8 +2539,8 @@ cite {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
-  font-weight: 500;
-  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  font-weight: bold;
+  font-family: MyCustomFont, DroidSerif-Bold, "Arial Black", sans-serif;
   line-height: 1.2; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     font-weight: normal;
@@ -2541,7 +2559,7 @@ h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 10px; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 33px; }
 
 h2, .h2 {
   font-size: 30px; }
