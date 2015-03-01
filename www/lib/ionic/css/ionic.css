@@ -4456,7 +4456,7 @@ a.item {
 .item-complex .item-content, .item-radio .item-content {
   position: relative;
   z-index: 2;
-  padding: 16px 49px 16px 16px;
+  padding: 0px 16px 0px 0px;
   border: none;
   background-color: white; }
 
@@ -6261,7 +6261,7 @@ progress {
 .button-icon {
   -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
-  padding: 0 6px;
+  padding: 0 4px;
   min-width: initial;
   border-color: transparent;
   background: none; }
@@ -6271,7 +6271,7 @@ progress {
     box-shadow: none;
     opacity: 0.3; }
   .button-icon .icon:before, .button-icon.icon:before {
-    font-size: 32px; }
+    font-size: 40px; }
 
 .button-clear {
   -webkit-transition: opacity 0.1s;

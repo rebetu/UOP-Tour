@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>   <!-- cordova script (this will be a 404 during development) -->
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+    <ion-pane>
+        <ion-content class="has-header">
+            <div class="card">
+                <ion-header-bar class="bar-dark item item-divider">
+                    <h1 class="title">Walk to the Library</h1>
+                </ion-header-bar>
+                <img class="full-image" src="img/Map5.jpg">
+				<div class="item item-text-wrap item-body">
+				    </br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					<div class="row row-bottom">
+						<div class="button-bar">
+							<a id="back" class="button button-energized icon ion-arrow-left-a "></a>
+							<a id="main" class="button button-energized icon ion-home"></a>
+							<a id="next" class="button button-energized icon ion-arrow-right-a"></a>
+						</div>
+					</div>
+                </div>
+            </div>
+
+        </ion-content>
+    </ion-pane>
+
+    <!-- javascript -->
+    <script>
+        document.getElementById("back").onclick = function () {
+            location.href = "TourBuilding4.html";
+        };
+        document.getElementById("main").onclick = function () {
+            location.href = "index.html";
+        };
+        document.getElementById("next").onclick = function () {
+            location.href = "TourBuilding5.html";
+        };
+    </script>
+
+</body>
+
+</html>
