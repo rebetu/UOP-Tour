@@ -7,8 +7,9 @@
     <title></title>
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="lib/ionic/js/ionic.bundle.js"></script>    
-    <script src="cordova.js"></script><!-- cordova script (this will be a 404 during development) -->    
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
     <script src="js/app.js"></script>
 </head>
 
@@ -21,30 +22,106 @@
                 </ion-header-bar>
 
                 <div class="list">
-                    <a class="item" href="List_BurnsTower.html">
-                        Burns Tower
-                      </a>
-                    <a class="item" href="List_RoseGarden.html">
-                         Majorie Webster Williams Rose Garden
-                      </a> 
-                    <a class="item" href="List_KnolesHall.html">
-                         Knoles Hall
-                      </a> 
+
+
+
+                    <a class="item" href="List_Athletics.html">
+                        Athletics
+                    </a>
+                    <a class="item" href="List_Baun.html">
+                        Baun Fitness Center
+                    </a>
+                    <a class="item" href="List_Education.html">
+                        Benerd School of Education
+                    </a>
+                    <a class="item" href="List_BioBuilding.html">
+                        Biological Sciences Building
+                    </a>
+                    <a class="item" href="List_Chambers.html">
+                        Chambers Technology Center
+                    </a>
+                    <a class="item" href="List_Columns.html">
+                        The Columns
+                    </a>
                     <a class="item" href="List_Conservatory.html">
-                         Conservatory
-                      </a>
-                     <a class="item" href="List_.html">
-                         ...
-                      </a>
+                        Conservatory
+                    </a>
+                    <a class="item" href="List_DUC.html">
+                        DeRosa University Center
+                    </a>
+                    <a class="item" href="List_Business.html">
+                        Eberhardt School of Business
+                    </a>
+                    <a class="item" href="List_Grace.html">
+                        Grace Covell Hall
+                    </a>
+                    <a class="item" href="List_HandHall.html">
+                        Hand Hall
+                    </a>
+                    <a class="item" href="List_KnolesHall.html">
+                        Knoles Hall
+                    </a>
+                    <a class="item" href="List_Library.html">
+                        Knox Memorial Library
+                    </a>
+                    <a class="item" href="List_RoseGarden.html">
+                        Majorie Webster Williams Rose Garden
+                    </a>
+                    <a class="item" href="List_McCaffrey.html">
+                        McCaffrey Center
+                    </a>
+                    <a class="item" href="List_MorrisChapel.html">
+                        Morris Chapel
+                    </a>
+                    <a class="item" href="List_NorthCampus.html">
+                        North Campus
+                    </a>
+                    <a class="item" href="List_PresidentsResidence.html">
+                        President's Residence
+                    </a>
+                    <a class="item" href="List_Quads.html">
+                        The Quads
+                    </a>
+                    <a class="item" href="List_Rocks.html">
+                        The Rocks
+                    </a>
+                    <a class="item" href="List_SOECS.html">
+                        School of Engineering & Computer Science
+                    </a>
+                    <a class="item" href="List_SIS.html">
+                        School of International Studies
+                    </a>
+                    <a class="item" href="List_SouthCampus.html">
+                        South Campus
+                    </a>
+                    <a class="item" href="List_Southwest.html">
+                        Southwest Hall
+                    </a>
+                    <a class="item" href="List_AlumniHouse.html">
+                        Vereschagin Alumni House
+                    </a>
+                    <a class="item" href="List_WPC.html">
+                        Wendell Phillips Center
+                    </a>
                 </div>
 
+
+                <div class="bar">
+                    <div class="button-bar">
+                        <a id="back" class="button button-energized icon-left ion-chevron-left">Back</a>
+                    </div>
+                </div>
             </div>
 
         </ion-content>
     </ion-pane>
 
 
-
+    <script>
+        document.getElementById("back").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
 </body>
 
 </html>
