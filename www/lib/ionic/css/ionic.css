@@ -2137,6 +2137,20 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
  */
 button[disabled], html input[disabled] {
   cursor: default; }
+  
+button.link {
+	color: blue;
+	text-decoration: underline;
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+button.link span {
+	text-decoration: underline;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -6342,6 +6356,20 @@ a.button {
  * Button Bar
  * --------------------------------------------------
  */
+ .button-bar-asym {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;}
+ 
 .button-bar {
   display: -webkit-box;
   display: -webkit-flex;

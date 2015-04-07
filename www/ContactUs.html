@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="js/app.js"></script>
+</head>
+
+
+<body ng-app="starter">
+    <ion-pane>
+        <ion-content class="has-header">
+            <div class="card">
+                <ion-header-bar class="bar-dark item item-divider">
+                    <h1 class="title">Contact Us</h1>
+                </ion-header-bar>
+				<p>&nbsp&nbsp&nbsp&nbsp</p>
+				
+				<p><b><font size="3">Office of Admissions</font></b></p>
+				<p>Address: 3601 Pacific Avenue, Stockton, CA 95211</p>
+				<p>Email: admission@pacific.edu</p>
+				<p>Phone Number: (209) 946-2211</p>
+				<p>Fax: (209) 946-2413</p>
+				<p>&nbsp&nbsp&nbsp&nbsp</p>
+				
+				<div class="row row-bottom">
+					<div class="button-bar-asym">
+						<a id="main" class="button button-energized icon ion-home"></a>
+						<a id="scheduleTour" class="button button-energized">Schedule a Campus Tour!</a>
+					</div>
+				</div>
+				<p>&nbsp&nbsp&nbsp&nbsp</p>
+				
+				<div style="position: absolute; bottom: 0">
+					<img class="full-image" src="img/homepagebottom.jpg">
+				</div>
+            </div>
+			
+        </ion-content>
+    </ion-pane>
+
+    <!-- Add the reference to the next page (ex. set location.href = "nextBuilding.html";) -->
+
+    <script>
+        document.getElementById("main").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
+
+	<script>
+        document.getElementById("scheduleTour").onclick = function () {
+            location.href = "http://www.pacific.edu/Admission/Visit-Campus/Campus-Tour.html";
+        };
+    </script>
+	
+</body>
+
+</html>
