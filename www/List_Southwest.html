@@ -24,7 +24,11 @@
                 </ion-header-bar>
 
                 <!-- ***INSERT IMAGE FILENAME HERE*** ... EX.src="img/_IMAGE_FILENAME_HERE_.jpg" -->
-                <img class="full-image" src="img/southwest.jpg">
+                <img class="full-image" id="myImg" src="img/southwest.jpg">
+				<div class="button-bar">
+                        <button class="button button-energized" onclick="mapButton()">Map</button>
+                        <button class="button button-energized" onclick="imgButton()">Image</button>
+                 </div>
 
                 <div class="item item-text-wrap item-body">
                     <!-- ***DESCRIPTION_GOES_HERE***-->
@@ -63,6 +67,15 @@
 //        document.getElementById("next").onclick = function () {
 //            location.href = "INSERT_NEXT_PAGE_HERE.html";
 //        };
+
+		function mapButton()
+		{
+			document.getElementById('myImg').src = "img/southwestmap.jpg";
+		}
+		function imgButton()
+		{
+			document.getElementById('myImg').src = "img/southwest.jpg";
+		}
     </script>
 </body>
 
