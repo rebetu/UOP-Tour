@@ -24,7 +24,11 @@
                 </ion-header-bar>
 
                 <!-- ***INSERT IMAGE FILENAME HERE*** ... EX.src="img/_IMAGE_FILENAME_HERE_.jpg" -->
-                <img class="full-image" src="img/rosegarden.jpg">
+                <img class="full-image" id="myImg" src="img/rosegarden.jpg">
+				<div class="button-bar">
+                        <button class="button button-energized" onclick="mapButton()">Map</button>
+                        <button class="button button-energized" onclick="imgButton()">Image</button>
+                 </div>
 
                 <div class="item item-text-wrap item-body">
                     <!-- ***DESCRIPTION_GOES_HERE***-->
@@ -38,6 +42,7 @@
                     <div class="button-bar">
                         <a id="back" class="button button-energized icon-left ion-chevron-left">Back</a>
                         <a id="main" class="button button-energized icon-right ion-navicon">Main Menu</a>
+						<a id="startTour" class="button button-energized">Start Tour</a>
                         <!--
                             <a id="main" class="button button-energized">Main Menu</a>
                             <a id="next" class="button button-energized icon-right ion-chevron-right">Next</a>
@@ -60,9 +65,21 @@
         document.getElementById("main").onclick = function () {
             location.href = "index.html";
         };
+		document.getElementById("startTour").onclick = function () {
+            location.href = "TourBuilding2.html";
+        };
 //        document.getElementById("next").onclick = function () {
 //            location.href = "INSERT_NEXT_PAGE_HERE.html";
 //        };
+
+		function mapButton()
+		{
+			document.getElementById('myImg').src = "img/burnsmap.jpg";
+		}
+		function imgButton()
+		{
+			document.getElementById('myImg').src = "img/rosegarden.jpg";
+		}
     </script>
 </body>
 
