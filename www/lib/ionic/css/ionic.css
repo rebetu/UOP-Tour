@@ -3148,7 +3148,7 @@ a.subdued {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 44px; }
+  height: 54px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -6416,7 +6416,7 @@ a.button {
   text-overflow: ellipsis;
   white-space: nowrap; }
   .button-bar > .button:before, .button-bar > .button .icon:before {
-    line-height: 44px; }
+    line-height: 54px; }
   .button-bar > .button:first-child {
     border-radius: 2px 0px 0px 2px; }
   .button-bar > .button:last-child {
