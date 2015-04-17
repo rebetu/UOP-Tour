@@ -2555,7 +2555,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
   font-weight: bold;
   text-align: center;
-  font-family: MyCustomFont, DroidSerif-Bold, "Arial Black", sans-serif;
+  font-family: MyCustomFont, "Arial Black", DroidSerif-Bold, sans-serif;
   line-height: 1.2; 
   white-space: normal !important; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
